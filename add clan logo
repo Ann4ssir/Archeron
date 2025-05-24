@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Archeron Clan</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      padding-top: 50px;
+    }
+    img {
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+    a {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #6610f2;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    a:hover {
+      background: #520dc2;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="Archeron Logo">
+  <h1>Welcome to Archeron</h1>
+  <p>Founded on April 1st, 2024 by Polar.</p>
+  <a href="https://trello.com/b/JiDpR4yW/archeron" target="_blank">Enter the Trello Board</a>
+</body>
+</html>
