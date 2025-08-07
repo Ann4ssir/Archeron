@@ -1,3 +1,1 @@
-User-agent: *
-Allow: /
-Sitemap: https://archeron.vercel.app/sitemap.xml
+
