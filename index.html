@@ -26,9 +26,26 @@
       text-align: center;
     }
   </style>
+  <script src="https://p.trellocdn.com/power-up.min.js"></script>
 </head>
 <body>
   <h1>Archeron Clan Power-Up</h1>
   <p>Welcome to the official Archeron clan extension. Here you can integrate your Trello board and display custom information.</p>
+
+  <script>
+    window.TrelloPowerUp.initialize({
+      'card-back-section': function(t, options) {
+        return [{
+          title: 'Archeron Tools',
+          icon: 'https://archeron.vercel.app/Archeron.png',
+          content: {
+            type: 'iframe',
+            url: t.signUrl('./iframe.html'),
+            height: 250
+          }
+        }];
+      }
+    });
+  </script>
 </body>
 </html>
